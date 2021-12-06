@@ -22,25 +22,45 @@ But for this image if I go for this menthod outout of bitwise not will be as sho
 Bitwise Output can see be seen in figure # 03 after appyling Gaussian blur. As you that particular coin edges are not ideally detected but we have removed other small edges to get exact output. Figure # 04 shows final output. 
 > Note : In coin detection we are interested in specific edges having circle shape. We have to remove small edges, it can be done using blurring. 
 
-![Coins](https://user-images.githubusercontent.com/74055460/144800860-77c052cc-a472-48e9-a5e7-3cbcacfa4e3c.jpg)
 <p align="center">
-    Figure 1: Input image
+  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+</p>
+<p align="center">
+   <img scr = "https://user-images.githubusercontent.com/74055460/144800860-77c052cc-a472-48e9-a5e7-3cbcacfa4e3c.jpg?raw=true">
+   Figure 1: Input image
 </p>
 
-![bitwise_not](https://user-images.githubusercontent.com/74055460/144803311-960cdc78-15a8-4270-a0d1-d52ed0800195.jpg)
+![bitwise_not]()
 <p align="center">
+   <img scr = "https://user-images.githubusercontent.com/74055460/144803311-960cdc78-15a8-4270-a0d1-d52ed0800195.jpg">
     Figure 2: Bitwise not output before Guassian blur
 </p>
 
-![bitwise_not](https://user-images.githubusercontent.com/74055460/144804673-fbf2bed3-0079-4952-a039-e25aaff4ab2f.jpg)
+![bitwise_not]()
 <p align="center">
+   <img scr = "https://user-images.githubusercontent.com/74055460/144804673-fbf2bed3-0079-4952-a039-e25aaff4ab2f.jpg">
     Figure 3: Bitwise not output after Guassian blur
 </p>
 
+![output]()
 <p align="center">
-  ![output](https://user-images.githubusercontent.com/74055460/144805651-338ad1a6-7543-44e3-af75-5c5f02310f96.png)
-  Figure 4: Final output
+   <img scr = "https://user-images.githubusercontent.com/74055460/144805651-338ad1a6-7543-44e3-af75-5c5f02310f96.png">
+    Figure 4: Final output
 </p>
 
 ## Coin detection in video
 In this part we will deal with video, In case if image we have pretty good in terms of details and resolution. When we deal with video we actually find edges for each frame and for each frame we don't have good details and resolution, so we don't need to apply gaussian filter. But in this case we will use other set of method as follows. 
+
+
+
+<p align="center">
+  <img scr = https://user-images.githubusercontent.com/74055460/144807482-9e3d9c4d-43b5-419f-8e38-3e83b261cef2.mp4>
+   Video 1: Input
+</p>
+
+
+
+<p align="center">
+  <img scr = https://user-images.githubusercontent.com/74055460/144807558-e2387924-ccc2-4dde-b181-15ab9f781261.mp4> 
+   Video 2: Output
+</p>
