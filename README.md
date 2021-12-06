@@ -22,10 +22,8 @@ But for this image if I go for this menthod outout of bitwise not will be as sho
 Bitwise Output can see be seen in figure # 03 after appyling Gaussian blur. As you that particular coin edges are not ideally detected but we have removed other small edges to get exact output. Figure # 04 shows final output. 
 > Note : In coin detection we are interested in specific edges having circle shape. We have to remove small edges, it can be done using blurring. 
 
-![bitwise_not](https://user-images.githubusercontent.com/74055460/144800860-77c052cc-a472-48e9-a5e7-3cbcacfa4e3c.jpg)
 <p align="center">
-   <img scr = "https://user-images.githubusercontent.com/74055460/144800860-77c052cc-a472-48e9-a5e7-3cbcacfa4e3c.jpg?raw=true">
-   Figure 1: Input image
+   <img scr = "/../main/Coins.jpg">
 </p>
 
 ![bitwise_not](https://user-images.githubusercontent.com/74055460/144803311-960cdc78-15a8-4270-a0d1-d52ed0800195.jpg)
